@@ -5,6 +5,7 @@ Aplikasi Web Toko Online Penjualan Tas.
 - Git (for cloning project)
 - PHP >= 5.6.4
 - Web Server Apache / Nginx 
+- DBMS Mysql 
 
 ## Install
 1. Run `git clone https://github.com/adiher22/toko-tas.git` or download the repository using download button
