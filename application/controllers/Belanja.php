@@ -199,7 +199,7 @@ public function city()
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_HTTPHEADER => array(
-    "key: ca34de6eb3084a11bf12abd33551d55e"
+    "key: " // your api key
   ),
 ));
 
@@ -247,7 +247,7 @@ public function getcost()
           CURLOPT_POSTFIELDS => "origin=$asal&destination=$dest&weight=$berat&courier=$kurir",
           CURLOPT_HTTPHEADER => array(
             "content-type: application/x-www-form-urlencoded",
-            "key: ca34de6eb3084a11bf12abd33551d55e"
+            "key: " // your api key
           ),
         ));
  
